@@ -1,0 +1,56 @@
+*{margin: 0;padding: 0;font-family: 'Montserrat', sans-serif;}
+body{width: 100%;font-size: 1.1rem;line-height: 1.5;}
+b{font-weight: bold;}
+i{font-style: italic;}
+.winner{max-width: 1024px;margin: 0 auto;}
+.top.blue{background-color: rgba(0, 0, 0, 0); background-image: radial-gradient(at center center, rgb(0, 25, 125) 0%, rgb(0, 0, 0) 100%);text-align: center;}
+.top.blue h1{font-size: 3.2em;line-height: 1.149em;text-transform: capitalize;letter-spacing: -1.5px;font-weight: 700;background-color: rgb(245, 255, 0);color: rgb(0, 0, 0);display: inline-block;margin: 5% 0 6%;}
+.top.blue h2{font-family: Montserrat, sans-serif;color: rgb(255, 255, 255);font-size: 3.2em;line-height: 1.149em;text-transform: capitalize;letter-spacing: -1.5px;
+    font-weight: 700;padding-bottom: 16px;max-width: 1200px;}
+.top.blue h2 span{color: rgb(255, 61, 0);}
+.top.blue h2 span.under{text-decoration: underline;}
+.top.blue p{font-size: 1.3em;color: rgb(255, 255, 255);line-height: 1.578em;letter-spacing: 0px;font-weight: 400;text-transform: capitalize;padding-bottom: 15px;}
+.btn-add{text-align: center;}
+a.quero-assistir{display: inline-block;color: rgb(255, 255, 255);height: 53px;border-top-left-radius: 5px;border-top-right-radius: 5px;border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;font-family: "Open Sans", sans-serif;font-weight: 700;padding: 3% 40px;background-color: rgb(254, 73, 2);font-size: 31px;
+    line-height: 1em;max-width: 720px;margin: 2% auto 4%;text-shadow: rgba(0, 0, 0, 0) 0px 0px 0px;margin-right: auto;text-decoration: none;}
+a.quero-assistir::before, .page1 article ul li::before{content: "»";color: #fff;padding: 0 2% 0 0;}
+a.quero-assistir:hover{filter: brightness(0.91);}
+.page1 article{color: #fff;background-image: linear-gradient(73deg, rgb(43, 43, 43) 0%, rgb(67, 67, 67) 100%);background-color: rgba(0, 0, 0, 0);}
+.page1 h3{font-size: 2.3em;line-height: 1.149em;font-weight: 700;letter-spacing: -0.5px;padding: 4% 0 6%;}
+.page1 article ul{margin-left: 10%;font-size: 1.5em;max-width: 70%;padding-bottom: 4%;list-style: none;}
+.page1 article ul li{margin-bottom: 3%;}
+footer{color: rgb(0, 0, 0);text-align: center;}
+copyright{display: block;margin-top: 10%;}
+footer nav{margin: 1% 0 11%;}
+footer nav a{color: rgb(0, 0, 0); font-weight: bold;text-decoration: none;}
+footer nav a:hover{text-decoration: underline;}
+.information{font-size: 0.8em;line-height: 2.2em;}
+.information p{margin-bottom: 2%;}
+.text-light{color: rgb(250, 76, 2);}
+.bgblue{background: #08263e;padding: 2% 0; color:#fff;}
+.bgblue.bgblack{background:#000000;}
+.aligncenter, .black.block2 p.aligncenter{text-align: center;width: 100%;}
+.light{color: rgb(230, 255, 0);}
+.box{background:rgb(230, 255, 0);color: #000;font-weight: bold; }
+
+
+@media screen and (max-width: 1200px) {
+    .winner{max-width: 80%;}
+    body{font-size: 0.6rem}
+    .top.blue h1{margin-top: 13%;}
+    .top.blue p{font-size: 1.8em;}
+    a.quero-assistir{padding: 3% 20px;height: 61px;}
+    .page1 h3{text-align: center;padding: 10% 0 8%;}
+    .page1 article ul {max-width: 97%;margin-left: 3%;}
+    .page1 article{padding-bottom: 30%;}
+    footer{font-size: 1.5em;}
+
+}
+@media screen and (max-width: 390px) {
+    a.quero-assistir{height: 93px;}
+    .page2 .two-column{min-height: 240px;}
+}
+@media screen and (max-width: 940px) {
+    .winner{max-width: 92%;}
+}
